@@ -1,15 +1,3 @@
-<?php
-$firstname = 'Adrian';
-$lastname = 'MIHAI';
-$mail = 'm.adrian_98@yahoo.ro';
-$address = 'str. lebedei 27, 500461, brașov, românia';
-$tel = '0736360488';
-$romanianlevel = '5';
-$englishlevel = '4';
-$background1 = '#015b7f';
-$background2 = '#028fb3';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,16 +68,16 @@ $background2 = '#028fb3';
     <div class="components">
         <div id="name">
             <h1 >first name & last name</h1>
-            <h2><?php echo "$firstname"; ?> <?php echo "$lastname"; ?></h2>
+            <h2>Adrian MIHAI</h2>
         </div>
         <div id="address">
         <h1 class="header">address</h1>
-            <p></p><a href="http://maps.google.com/?q=<?php echo "$address"; ?>"><?php echo "$address"; ?></a>
+            <p></p><a href="http://maps.google.com/?q=str. lebedei 27, 500461, brașov, românia">str. lebedei 27, 500461, brașov, românia</a>
         </div>
         <div id="contact">
             <h1>contact</h1>
-            <p><a href="mailto: <?php echo "$mail"; ?>"><?php echo "$mail"; ?></a></p>
-            <p><a href="tel:<?php echo "$tel"; ?>"><?php echo "$tel"; ?></a></p>
+            <p><a href="mailto:m.adrian_98@yahoo.ro">m.adrian_98@yahoo.ro</a></p>
+            <p><a href="tel:0736360488">0736360488</a></p>
         </div>
         <div id="dateOfBirth">
             <h1>date of birth</h1>
@@ -107,62 +95,32 @@ $background2 = '#028fb3';
             <h1>skills acquired from degree</h1>
             <h2>SQL / MySQL</h2>
             <div class="skilllevelwrapper">
-            <?php 
-                $level = 2;
-                for($x = 1; $x<=$level; $x++){
-                    echo '<div class="levelbar"></div>';
-                }
-            ?>
+                <div class="levelbar"></div><div class="levelbar"></div>
             </div>
             <p></p>
             <h2>HTML</h2>
             <div class="skilllevelwrapper">
-            <?php 
-                $level = 3;
-                for($x = 1; $x<=$level; $x++){
-                    echo '<div class="levelbar"></div>';
-                }
-            ?>
+                <div class="levelbar"></div><div class="levelbar"></div><div class="levelbar"></div>
             </div>
             <p></p>
             <h2>CSS</h2>
             <div class="skilllevelwrapper">
-            <?php 
-                $level = 2;
-                for($x = 1; $x<=$level; $x++){
-                    echo '<div class="levelbar"></div>';
-                }
-            ?>
+                <div class="levelbar"></div><div class="levelbar"></div>
             </div>
             <p></p>
             <h2>PHP</h2>
             <div class="skilllevelwrapper">
-            <?php 
-                $level = 2;
-                for($x = 1; $x<=$level; $x++){
-                    echo '<div class="levelbar"></div>';
-                }
-            ?>
+                <div class="levelbar"></div><div class="levelbar"></div>
             </div>
             <p></p>
             <h2>JAVA</h2>
             <div class="skilllevelwrapper">
-            <?php 
-                $level = 1;
-                for($x = 1; $x<=$level; $x++){
-                    echo '<div class="levelbar"></div>';
-                }
-            ?>
+                <div class="levelbar"></div>
             </div>
             <p></p>
             <h2>Microsoft Office Suite</h2>
             <div class="skilllevelwrapper">
-            <?php 
-                $level = 3;
-                for($x = 1; $x<=$level; $x++){
-                    echo '<div class="levelbar"></div>';
-                }
-            ?>
+                <div class="levelbar"></div><div class="levelbar"></div><div class="levelbar"></div>
             </div>
             <p></p>
             
