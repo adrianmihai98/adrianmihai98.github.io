@@ -37,6 +37,9 @@ body {
   p{
     font-size: 12px;
   }
+  h5{
+    font-size: 14px;
+  }
 .profile-picture{
 
     width: 5cm;
@@ -93,7 +96,7 @@ body {
   
   .main {
     width: 21cm;
-    height: 29.7cm;
+    height: auto;
     background-color: #f0f0f0;
     box-shadow: 10px 0 5px -2px #888;
     
@@ -119,6 +122,7 @@ body {
     border-bottom: .2cm solid #015b7f;
     margin-bottom: .4cm;
     background-color: #88888804;
+    text-align: center;
   }
   #divstyle h1{
     text-align: center;
