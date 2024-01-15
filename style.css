@@ -143,6 +143,14 @@ body {
     background-color: #028fb3;
     border-radius: 20%;
     margin-left: 2px;
+  }
+  .halflevelbar{
+    
+    width: 25px;
+    height: .3cm;
+    background-color: #cc5900;
+    border-radius: 20%;
+    margin-left: 2px;
     
   }
 
