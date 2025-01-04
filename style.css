@@ -180,29 +180,3 @@ body {
     .main    { order: 2; }
   }
   
-
-@media print {
-
-  .levelbar{
-    
-    width: 50px;
-    height: .3cm;
-    background-color: #12728a;
-    border-radius: 20%;
-    margin-left: 2px;
-  }
-  .halflevelbar{
-    
-    width: 25px;
-    height: .3cm;
-    background-color: #2492ad;
-    border-radius: 20%;
-    margin-left: 2px;
-    
-  }
-
-  .skilllevelwrapper{
-    display: flex;
-    margin-left: 0.4cm;
-  }
-}
