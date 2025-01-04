@@ -182,7 +182,7 @@ body {
   
 
 @media print {
-  a {
+  a:link, a:visited {
     color: #074963;
   }
   .skilllevelwrapper{
