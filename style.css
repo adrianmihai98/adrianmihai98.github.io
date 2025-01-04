@@ -182,8 +182,8 @@ body {
   
 
 @media print {
-  a:link, a:visited, h2, p {
-    color: #074963;
+  .aside-1{
+    background: #a7aab1;
   }
   .skilllevelwrapper{
     display: none;
