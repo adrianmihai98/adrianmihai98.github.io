@@ -182,12 +182,7 @@ body {
   
 
 @media print {
-  .main    { flex: 3 0px; }
-  .aside-1 { order: 1; } 
-  .main    { order: 2; }
-
   .profile-picture{
-
     width: 5cm;
     height:5cm;
     background-color: none;
