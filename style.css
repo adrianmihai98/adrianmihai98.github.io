@@ -182,8 +182,14 @@ body {
   
 
 @media print {
-
+  a {
+    color: #074963;
+  }
   .skilllevelwrapper{
     display: none;
+  }
+
+  #Skills{
+    text-align: center;
   }
 }
