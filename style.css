@@ -192,7 +192,10 @@ body {
     padding-left: 40%;
 
   }
+  #Skills{
+    text-align: center;
+  }
   .skilllevelwrapper{
-    justify-content: center;
+    padding-left: 41.5%;
   }
 }
