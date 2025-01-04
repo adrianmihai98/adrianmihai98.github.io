@@ -180,3 +180,10 @@ body {
     .main    { order: 2; }
   }
   
+
+@media print {
+
+  .skilllevelwrapper{
+    display: none;
+  }
+}
