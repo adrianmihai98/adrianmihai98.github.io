@@ -193,4 +193,11 @@ body {
     padding-left: 40%;
 
   }
+  .skilllevelwrapper{
+    display: none;
+  }
+
+  #Skills{
+    text-align: center;
+  }
 }
