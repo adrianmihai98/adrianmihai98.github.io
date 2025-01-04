@@ -180,3 +180,27 @@ body {
     .main    { order: 2; }
   }
   
+
+@media print {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+
+  .profile-picture{
+
+    width: 5cm;
+    height:5cm;
+    background-color: none;
+    border-radius: 50%;
+    box-shadow: none;
+    border: none;
+    padding-left: 40%;
+
+  }
+  #Skills{
+    text-align: center;
+  }
+  .skilllevelwrapper{
+    justify-content: center;
+  }
+}
