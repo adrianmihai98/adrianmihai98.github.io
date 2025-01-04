@@ -182,15 +182,7 @@ body {
   
 
 @media print {
-  .profile-picture{
-    width: 5cm;
-    height:5cm;
-    background-color: none;
-    border-radius: 50%;
-    box-shadow: none;
-    border: none;
-    padding-left: 40%;
-  }
+
   .levelbar{
     
     width: 50px;
