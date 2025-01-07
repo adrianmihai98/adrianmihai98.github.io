@@ -229,6 +229,12 @@ body {
 
   @media all and (min-width: 600px) {
     .aside { display: none; }
+    .pdfTitle{
+      display: block;
+    }
+    .pdfDetails {
+        display: flex; /* Afișează elementele în PDF */
+    }
   }
   
   @media all and (min-width: 800px) {
