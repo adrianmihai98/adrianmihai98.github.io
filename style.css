@@ -215,6 +215,9 @@ body {
 
 /* Afișează elementul doar la imprimare (sau salvarea ca PDF) */
 @media print {
+  .pdfTitle{
+    display: block;
+  }
   .pdfDetails {
       display: flex; /* Afișează elementele în PDF */
   }
