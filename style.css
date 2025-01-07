@@ -214,7 +214,7 @@ body {
 }
 
 /* Afișează elementul doar la imprimare (sau salvarea ca PDF) */
-@media print and (min-width: 600px) and (min-width: 800px){
+@media print and (max-width: 600px) and (max-width: 800px){
   .pdfTitle{
     display: block;
   }
