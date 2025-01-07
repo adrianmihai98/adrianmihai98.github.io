@@ -194,7 +194,7 @@ body {
 /* Detaliile profilului (numele și informațiile) */
 .profile-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%; /* Ocupă întreaga lățime disponibilă */
 }
 
