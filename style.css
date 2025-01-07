@@ -178,6 +178,9 @@ body {
 }
 .workexperience *:not(h1) {
   margin-left: 20px; /* Mută toate elementele interne cu 20px la stânga, cu excepția <h1> */
+  h2{
+    padding-left: 1cm;
+  }
 }
 /* Layout-ul principal pentru poza de profil și detalii */
 .profile-container {
