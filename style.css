@@ -156,9 +156,8 @@ body {
   .profile, .studies {
     flex: 1; /* Aceste div-uri vor avea lățime egală */
     height: auto; /* Înălțimea se va ajusta în funcție de conținut */
-    padding: 10px; /* Adăugăm padding pentru un aspect mai plăcut */
+    padding-left: 10px; /* Adăugăm padding pentru un aspect mai plăcut */
     background-color: #f9f9f9; /* Poți să adaugi un fundal dacă dorești */
-    border: 1px solid #ccc; /* Adăugăm o margine pentru a le delimita */
 }
   .profile p {
     width: 100%; /* Asigură că textul ocupă întreaga lățime disponibilă */
