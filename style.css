@@ -185,7 +185,7 @@ body {
 }
 .workexperience li {
   list-style-position: outside; /* Markerul în exterior */
-  text-indent: -5px; /* Reduce spațiul dintre marker și text */
+  text-indent: -22px; /* Reduce spațiul dintre marker și text */
 }
 /* Layout-ul principal pentru poza de profil și detalii */
 .profile-container {
@@ -215,7 +215,10 @@ body {
 .pdfTitle {
   text-align: center;
 }
-
+.pdfTitle h1{
+  font-size: 22px;
+  margin-bottom: 0px;
+}
 .pdfDetails {
   display: flex;
   flex-direction: row; /* aliniază detaliile pe verticală */
