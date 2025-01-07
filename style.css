@@ -44,11 +44,8 @@ body {
 
     width: 5cm;
     height:5cm;
-    background-color: #E8C4C4;
     border-radius: 50%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    border: 1px solid #E8C4C4;
-
   }
 
   .profile-picture img
