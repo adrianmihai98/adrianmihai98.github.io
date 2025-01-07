@@ -236,6 +236,12 @@ body {
     .aside { display: none; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
+    .pdfTitle{
+      display: block;
+    }
+    .pdfDetails {
+        display: flex; /* Afișează elementele în PDF */
+    }
   }
   
 
