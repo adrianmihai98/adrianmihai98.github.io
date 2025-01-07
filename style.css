@@ -213,40 +213,28 @@ body {
   display: none;
 }
 
-/* Afișează elementul doar la imprimare (sau salvarea ca PDF) */
-@media print{
-  .pdfTitle{
-    display: block;
-  }
-  .pdfDetails {
-      display: flex; /* Afișează elementele în PDF */
-  }
-  .aside-1{
-    display: none;
-  }
-}
-
 
   @media all and (min-width: 600px) {
-    .aside { display: none; }
+    .main    { flex: 3 0px; }
+    .aside, .aside-1{ display: none; } 
+    .main    { order: 1; }
     .pdfTitle{
       display: block;
     }
     .pdfDetails {
-        display: flex; /* Afișează elementele în PDF */
+        display: flex;
     }
   }
   
   @media all and (min-width: 800px) {
     .main    { flex: 3 0px; }
-    .aside { display: none; }
-    .aside-1 { order: 1; } 
-    .main    { order: 2; }
+    .aside, .aside-1{ display: none; } 
+    .main    { order: 1; }
     .pdfTitle{
       display: block;
     }
     .pdfDetails {
-        display: flex; /* Afișează elementele în PDF */
+        display: flex;
     }
   }
   
@@ -269,5 +257,15 @@ body {
 
   #Skills{
     text-align: center;
+  }
+
+  .pdfTitle{
+    display: block;
+  }
+  .pdfDetails {
+      display: flex; /* Afișează elementele în PDF */
+  }
+  .aside-1{
+    display: none;
   }
 }
