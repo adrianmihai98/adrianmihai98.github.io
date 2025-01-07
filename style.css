@@ -172,13 +172,22 @@ body {
     }
   }
   .pdfTitle {
-    text-align: center; /* Centrează textul în interiorul .pdfTitle */
+    text-align: center;
 }
   .pdfDetails {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.pdfDetails img {
+  width: 50%; 
+  height: auto;
+}
+
+.pdfDetails img.linkedin-icon {
+  width: 100%;
 }
 
 .detail {
@@ -197,6 +206,21 @@ body {
 
 .pdfDetails img {
     margin-right: 8px;
+}
+
+/* Ascunde elementul pe pagină */
+.pdfTitle, .pdfDetails {
+  display: none;
+}
+
+/* Afișează elementul doar la imprimare (sau salvarea ca PDF) */
+@media print {
+  .pdfTitle, .pdfDetails {
+      display: block; /* Afișează elementele în PDF */
+  }
+  .aside-1{
+    display: none;
+  }
 }
 
 
