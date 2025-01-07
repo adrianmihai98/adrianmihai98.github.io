@@ -170,6 +170,12 @@ body {
     clip-path: inset(0px -15px 0px 0px);
   }
   
+  .workexperience {
+    p {
+      font-size: 16px;
+    }
+  }
+
   @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }
   }
