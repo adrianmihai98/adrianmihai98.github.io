@@ -206,7 +206,6 @@ body {
 .pdfDetails {
   display: flex;
   flex-direction: row; /* aliniază detaliile pe verticală */
-  gap: 10px; /* distanță între fiecare detaliu */
 }
 
 .pdfDetails .detail {
@@ -221,7 +220,7 @@ body {
 }
 
 .separator {
-  padding: 0 10px;
+  padding: 15px 10px;
 }
 
 .pdfDetails a {
