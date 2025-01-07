@@ -178,9 +178,14 @@ body {
 }
 .workexperience *:not(h1) {
   margin-left: 20px; /* Mută toate elementele interne cu 20px la stânga, cu excepția <h1> */
+  margin-right: 10px;
 }
 .workexperience h2 {
   padding-left: 1cm;
+}
+.workexperience li {
+  list-style-position: outside; /* Markerul în exterior */
+  text-indent: -5px; /* Reduce spațiul dintre marker și text */
 }
 /* Layout-ul principal pentru poza de profil și detalii */
 .profile-container {
