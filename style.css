@@ -176,15 +176,9 @@ body {
     width: 100%; /* Acest div va ocupa întreaga lățime disponibilă */
     background-color: #f9f9f9;
 }
-  .workexperience {
-    p {
-      font-size: 14px;
-    }
-    ul {
-      margin: 2px 0;
-      padding: 0;
-    }
-  }
+.workexperience *:not(h1) {
+  margin-left: 20px; /* Mută toate elementele interne cu 20px la stânga, cu excepția <h1> */
+}
 /* Layout-ul principal pentru poza de profil și detalii */
 .profile-container {
   display: flex;
