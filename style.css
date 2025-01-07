@@ -193,14 +193,12 @@ body {
 
 /* Detaliile profilului (numele și informațiile) */
 .profile-info {
-  display: flex;
   flex-direction: row;
   width: 100%; /* Ocupă întreaga lățime disponibilă */
 }
 
 .pdfTitle {
   text-align: center;
-  display: block;
 }
 
 .pdfDetails {
