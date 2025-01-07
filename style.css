@@ -171,6 +171,34 @@ body {
       padding: 0;
     }
   }
+  .pdfTitle {
+    text-align: center; /* Centrează textul în interiorul .pdfTitle */
+}
+  .pdfDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    padding: 0 10px;
+}
+
+.pdfDetails a {
+    text-decoration: none;
+    color: black;
+}
+
+.pdfDetails img {
+    margin-right: 8px;
+}
+
 
   @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }
