@@ -225,9 +225,3 @@ body {
   text-decoration: none;
   color: black;
 }
-
-/* Ascunderea elementelor în funcție de context */
-.pdfTitle, .pdfDetails {
-  display: block;
-}
-
