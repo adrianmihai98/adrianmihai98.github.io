@@ -114,12 +114,7 @@ body {
 }
   #divstyle{
     height: auto;
-    width: 90%;
     border-top: .2cm solid #015b7f;
-    border-radius: 10px;
-    border-bottom: .2cm solid #015b7f;
-    margin-bottom: .4cm;
-    background-color: #88888804;
   }
   #divstyle h1{
     text-align: center;
@@ -152,11 +147,10 @@ body {
   }
   
   .categories{
-    margin-top: 1.5cm;
-    margin-left: 1.5cm;
+    margin-top: 10px;
     display: flex; /* Setăm flexbox pentru a alinia profile și studies pe orizontală */
     flex-wrap: wrap; /* Permitem ca elementele să se mute pe rând dacă nu au suficient spațiu */
-    gap: 20px; /* Adăugăm un spațiu între elemente */
+    gap: 5px; /* Adăugăm un spațiu între elemente */
   }
   
   .profile, .studies {
@@ -166,6 +160,11 @@ body {
     background-color: #f9f9f9; /* Poți să adaugi un fundal dacă dorești */
     border: 1px solid #ccc; /* Adăugăm o margine pentru a le delimita */
 }
+  .profile p {
+    width: 100%; /* Asigură că textul ocupă întreaga lățime disponibilă */
+    line-height: 1.6; /* Creează mai mult spațiu între linii */
+    margin: 0; /* Elimină marginile implicite ale paragrafului */
+  }
   .aside-1 {
     display: none;
     background: #a7aab1;
@@ -175,9 +174,7 @@ body {
   }
   .workexperience {
     width: 100%; /* Acest div va ocupa întreaga lățime disponibilă */
-    padding: 10px;
     background-color: #f9f9f9;
-    border: 1px solid #ccc;
 }
   .workexperience {
     p {
